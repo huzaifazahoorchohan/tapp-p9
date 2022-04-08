@@ -2,7 +2,7 @@
 
 It's simple todo app with local storage.
 
-## Deployed on
+## Deployed on Netlify
 
 https://todoapp-react0.netlify.app
 
