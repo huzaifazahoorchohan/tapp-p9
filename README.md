@@ -10,4 +10,4 @@ https://todoapp-react0.netlify.app
 
 [John Smilga](https://github.com/john-smilga)
 
-### Thank you
+Thank you
