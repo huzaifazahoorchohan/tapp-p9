@@ -6,4 +6,8 @@ It's simple todo app with local storage.
 
 https://todoapp-react0.netlify.app
 
+## Credit goes to
+
+[John Smilga](https://github.com/john-smilga)
+
 ### Thank you
