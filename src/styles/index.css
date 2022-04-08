@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #063251;
+  --gray: #f1f5f8;
+  --light-gray: #617d98;
+  --white: #fff;
+}
+
+body {
+  font-family: "Grape Nuts", cursive;
+  font-weight: bold;
+  background-color: var(--gray);
+}
+
+.section-center {
+  background-color: var(--white);
+  width: 95vw;
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top: 4rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  padding: 2rem;
+}
+
+.todo-form h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: var(--black);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form-control {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-input {
+  padding: 0.25rem;
+  font-size: 1rem;
+  flex: 1 0 auto;
+  background: hsl(210, 36%, 96%);
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  border-color: transparent;
+  color: hsl(210, 22%, 49%);
+  padding-left: 1rem;
+}
+
+.submit-btn {
+  border-color: transparent;
+  flex: 0 0 5rem;
+  display: grid;
+  align-items: center;
+  padding: 0.25rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  cursor: pointer;
+  content: hsl(205, 78%, 60%);
+  transition: all 0.3s linear;
+  font-size: 0.85rem;
+  background-color: hsl(205, 86%, 81%);
+}
+
+.todo-container {
+  margin-top: 2rem;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s linear;
+  padding: 0.25rem 1rem;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+}
+
+.title {
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  transition: all 0.3s linear;
+  color: var(--light-gray);
+}
+
+.edit-btn,
+.delete-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 0.7rem;
+  margin: 0 0.15rem;
+  transition: all 0.3s linear;
+}
+
+.edit-btn {
+  color: green;
+}
+
+.delete-btn {
+  color: red;
+}
+
+.clear-btn {
+  text-transform: capitalize;
+  width: 10rem;
+  height: 1.5rem;
+  display: grid;
+  align-items: center;
+  background: transparent;
+  border-color: transparent;
+  color: red;
+  margin: 0 auto;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  margin-top: 1.25rem;
+}
+
+.alert {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.danger {
+  background-color: red;
+  color: var(--white);
+}
+
+.success {
+  background-color: green;
+  color: var(--white);
+}
+
+.no-todo {
+  text-align: center;
+  margin-top: 2rem;
+  color: var(--black);
+}
+
+@media screen and (max-width: 600px) {
+  .section-center {
+    width: 90vw;
+  }
+}
